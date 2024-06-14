@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    
+    cout << "Enter four integers a, b, c, and d: ";
+    cin >> a >> b >> c >> d;
+    
+    cout << ((a > b) && (c > d));
+
+    return 0;
+}
